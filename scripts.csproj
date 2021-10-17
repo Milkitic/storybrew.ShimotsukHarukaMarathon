@@ -53,6 +53,7 @@
   -->
   <ItemGroup>
     <Compile Include="BgFadeout.cs" />
+    <Compile Include="BluredBg.cs" />
     <Compile Include="Meta.cs" />
   </ItemGroup>
   <ItemGroup>
