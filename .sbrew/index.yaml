@@ -1,0 +1,12 @@
+﻿FormatVersion: 7
+BeatmapId: 0
+BeatmapName: "bookmark"
+Assemblies:
+  - "E:\\Games\\storybrew\\projects\\symarathon\\Coosu.Storyboard.Storybrew.dll"
+  - "E:\\Games\\storybrew\\projects\\symarathon\\PresentationCore.dll"
+  - "E:\\Games\\storybrew\\projects\\symarathon\\PresentationFramework.dll"
+  - "System.Xaml.dll"
+  - "E:\\Games\\storybrew\\projects\\symarathon\\WindowsBase.dll"
+Layers:
+  - "70e6164517c64e08a603faefa4b6dc04"
+  - "70e6164517c64e08a603faefa4b6dc06"

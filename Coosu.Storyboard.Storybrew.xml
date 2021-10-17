@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coosu.Storyboard.Storybrew</name>
+    </assembly>
+    <members>
+        <member name="M:Coosu.Storyboard.Storybrew.Text.CoosuTextOptionsBuilder.WithWeight(System.Int32)">
+            <summary>
+            Set the font weight.
+            <para>The font weight can be set with the preset value by <see cref="T:System.Windows.FontWeights"/>.</para>
+            </summary>
+            <param name="openTypeWeight">The value should be between 1 to 999.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Coosu.Storyboard.Storybrew.Text.CoosuTextOptionsBuilder.WithWeight(System.Windows.FontWeight)">
+            <summary>
+            Set the font weight.
+            </summary>
+            <param name="fontWeight"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Coosu.Storyboard.Storybrew.Text.OutlinedTextBlock">
+            <summary>
+            https://stackoverflow.com/questions/93650/apply-stroke-to-a-textblock-in-wpf
+            </summary>
+        </member>
+        <member name="T:Coosu.Storyboard.Storybrew.Text.TextControl">
+            <summary>
+            Interaction logic for TextControl.xaml
+            </summary>
+            <summary>
+            TextControl
+            </summary>
+        </member>
+        <member name="M:Coosu.Storyboard.Storybrew.Text.TextControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:Coosu.Storyboard.Storybrew.UI.WindowBase.ShownEvent">
+            <summary>
+            窗体显示事件
+            </summary>
+        </member>
+        <member name="E:Coosu.Storyboard.Storybrew.UI.WindowBase.Shown">
+            <summary>
+            当窗体显示时发生。
+            </summary>
+        </member>
+        <member name="T:Coosu.Storyboard.StorybrewExtensions">
+            <summary>
+            Storybrew extension methods for Coosu.
+            </summary>
+        </member>
+        <member name="M:Coosu.Storyboard.StorybrewExtensions.ExecuteBrew(Coosu.Storyboard.Sprite,System.String,StorybrewCommon.Scripting.StoryboardObjectGenerator,System.Action{Coosu.Storyboard.Extensions.Optimizing.CompressOptions})">
+            <summary>
+            Executing Coosu commands and optimizing automatically in storybrew.
+            </summary>
+            <param name="sprite">Specific Coosu <see cref="T:Coosu.Storyboard.Sprite"/>.</param>
+            <param name="layerName">Layer name.</param>
+            <param name="brewObjectGenerator">Specific storybrew <see cref="T:StorybrewCommon.Scripting.StoryboardObjectGenerator"/>.</param>
+            <param name="configureSettings">Configure compressing options.</param>
+        </member>
+        <member name="M:Coosu.Storyboard.StorybrewExtensions.ExecuteBrew(Coosu.Storyboard.Layer,StorybrewCommon.Scripting.StoryboardObjectGenerator,System.Action{Coosu.Storyboard.Extensions.Optimizing.CompressOptions})">
+            <summary>
+            Executing Coosu commands and optimizing automatically in storybrew.
+            </summary>
+            <param name="layer">Specific Coosu <see cref="T:Coosu.Storyboard.Layer"/>.</param>
+            <param name="brewObjectGenerator">Specific storybrew <see cref="T:StorybrewCommon.Scripting.StoryboardObjectGenerator"/>.</param>
+            <param name="configureSettings">Configure compressing options.</param>
+        </member>
+    </members>
+</doc>

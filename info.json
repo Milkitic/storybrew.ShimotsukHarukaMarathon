@@ -1,0 +1,86 @@
+[
+    {
+        "title": "白夜幻想譚",
+        "source": "イリスのアトリエ エターナルマナ",
+        "mapper": "Gust",
+        "bpm": 200
+    },
+    {
+        "title": "楽园の键",
+        "source": "君の中のパラディアーム",
+        "mapper": "ImpurePug",
+        "bpm": 186
+    },
+    {
+        "title": "虚空奏でし诗",
+        "source": "ウィルド・ラッドの調べ",
+        "mapper": "Kuse",
+        "bpm": 178
+    },
+    {
+        "title": "天を手にした旅人",
+        "source": "canoue chronicle",
+        "mapper": "Bellicose",
+        "bpm": 174
+    },
+    {
+        "title": "捻子巻く時計が月の満ち欠けを刻む2016ver.",
+        "source": "翼の降る王国",
+        "mapper": "Garden",
+        "bpm": 168
+    },
+    {
+        "title": "光の降る森",
+        "source": "翼の降る王国",
+        "mapper": "Yorita Yoshino",
+        "bpm": 166
+    },
+    {
+        "title": "金平糖レトロチカ - Another Flower ver. -",
+        "source": "Another Flower II",
+        "mapper": "Misure",
+        "bpm": 164
+    },
+    {
+        "title": "夢を織る家",
+        "source": "アーシャのアトリエ~黄昏の大地の錬金術士~",
+        "mapper": "nika mika",
+        "bpm": 133
+    },
+    {
+        "title": "光ノ軌跡",
+        "source": "フィリスのアトリエ ~不思議な旅の錬金術士~",
+        "mapper": "Misure",
+        "bpm": 118
+    },
+    {
+        "title": "冷たい森",
+        "source": "canoue chronicle",
+        "mapper": "yf_bmp",
+        "bpm": 112
+    },
+    {
+        "title": "想いのコンチェルト",
+        "source": "想いのコンチェルト",
+        "mapper": "Fushimi Rio",
+        "bpm": 105
+    },
+    {
+        "title": "郷里はるか",
+        "source": "イリスのアトリエ エターナルマナ",
+        "mapper": "Gust",
+        "bpm": 92
+    },
+    {
+        "title": "Hartes ciel, melenas walasye",
+        "source": "アルトネリコ2 世界に響く少女たちの創造詩",
+        "mapper": "Shurelia",
+        "bpm": "~85"
+    },
+    {
+        "title": "水を映す者",
+        "source": "光の雨音 ~SACRED DOORS element maxi side Undine~",
+        "mapper": "Gust",
+        "bpm": 180
+    }
+]
