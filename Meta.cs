@@ -19,7 +19,7 @@ namespace StorybrewScripts
 {
     public class Meta : StoryboardObjectGenerator
     {
-        private const int x = 600;
+        private const int x = 607;
         public override void Generate()
         {
             var layer = new Layer();
@@ -254,11 +254,25 @@ namespace StorybrewScripts
 
         private void FixContentSection(SpriteGroup group, int fadeIn, int fadeOut)
         {
-            foreach (var item in group)
+            int i = 0;
+            foreach (var grouping in group.GroupBy(k => k.Tag))
             {
-                item.Fade(2, fadeIn - 200, fadeIn, 0, 1);
-                item.Fade(fadeIn, fadeOut, 1);
-                item.Fade(0, fadeOut, fadeOut + 3000, 1, 0);
+                int j = 0;
+                foreach (var item in grouping)
+                {
+                    var step = Random(28, 36);
+                    int v = j * 200;
+                    item.Fade(2, v + i * step + fadeIn - 200, v + i * step + fadeIn, 0, 1);
+                    if (j == 1)
+                    {
+                        item.Fade(v + i * step * 2 + fadeIn, v + i * step * 2 + fadeIn + 64, 1, 0.5);
+                        item.Fade(v + i * step * 2 + fadeIn + 64, v + i * step * 2 + fadeIn + 64 * 2, 0.5, 1);
+                    }
+                    item.Fade(0, fadeOut, fadeOut + 3000, 1, 0);
+                    j++;
+                }
+
+                i += 1;
             }
         }
 
@@ -349,7 +363,7 @@ namespace StorybrewScripts
             return bookmarks;
         }
     }
-    
+
     public struct BookmarkObj
     {
         public BookmarkObj(int lead, int fadeIn, int fadeOut)

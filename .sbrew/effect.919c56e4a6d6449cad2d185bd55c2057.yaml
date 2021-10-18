@@ -7,3 +7,8 @@ Config:
     Value: "0"
     DisplayName: "Random seed"
 Layers:
+  3525f02642634370865ebbde5a7d75cd:
+    Name: "CoosuDefaultLayer"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
