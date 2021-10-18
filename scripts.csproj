@@ -5,9 +5,10 @@
     <Configurations>Output</Configurations>
     <RootNamespace>storyboard</RootNamespace>
     <AssemblyName>storyboard</AssemblyName>
+    <Platforms>x86</Platforms>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Output|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Output|x86' ">
     <Optimize>true</Optimize>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <BaseOutputPath>..\..\cache\bin</BaseOutputPath>
@@ -30,21 +31,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="PresentationCore">
-      <HintPath>PresentationCore.dll</HintPath>
-    </Reference>
-    <Reference Include="PresentationFramework">
-      <HintPath>PresentationFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xaml">
-      <HintPath>System.Xaml.dll</HintPath>
-    </Reference>
-    <Reference Include="WindowsBase">
-      <HintPath>WindowsBase.dll</HintPath>
-    </Reference>
-    <Reference Include="Coosu.Storyboard.Storybrew">
-      <HintPath>Coosu.Storyboard.Storybrew.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
 </Project>
