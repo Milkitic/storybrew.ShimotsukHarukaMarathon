@@ -31,11 +31,6 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BgFadeout.cs" />
-    <Compile Include="BluredBg.cs" />
-    <Compile Include="Meta.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="PresentationCore">
       <HintPath>PresentationCore.dll</HintPath>
     </Reference>
