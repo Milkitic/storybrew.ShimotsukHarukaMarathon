@@ -1,12 +1,12 @@
 ﻿FormatVersion: 7
-BeatmapId: 0
-BeatmapName: "bookmark"
+BeatmapId: 2772184
+BeatmapName: "Gensou"
 Assemblies:
-  - "E:\\Games\\storybrew\\projects\\symarathon\\Coosu.Storyboard.Storybrew.dll"
-  - "E:\\Games\\storybrew\\projects\\symarathon\\PresentationCore.dll"
-  - "E:\\Games\\storybrew\\projects\\symarathon\\PresentationFramework.dll"
-  - "System.Xaml.dll"
-  - "E:\\Games\\storybrew\\projects\\symarathon\\WindowsBase.dll"
+  - "./Coosu.Storyboard.Storybrew.dll"
+  - "./PresentationCore.dll"
+  - "./PresentationFramework.dll"
+  - "./System.Xaml.dll"
+  - "./WindowsBase.dll"
 Layers:
   - "70e6164517c64e08a603faefa4b6dc06"
   - "3525f02642634370865ebbde5a7d75cd"
