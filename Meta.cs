@@ -162,7 +162,7 @@ namespace StorybrewScripts
                         k.ScaleYBy(0.58);
                     }
                 });
-                FixContentSection(source, bmObj.FadeIn, bmObj.FadeOut);
+                FixContentSection(source, bmObj.FadeIn, bmObj.FadeOut, i);
 
                 var timings = Beatmap.TimingPoints
                     .Where(k => !k.IsInherited &&
@@ -252,7 +252,7 @@ namespace StorybrewScripts
             layer.ExecuteBrew(this);
         }
 
-        private void FixContentSection(SpriteGroup group, int fadeIn, int fadeOut)
+        private void FixContentSection(SpriteGroup group, int fadeIn, int fadeOut, int? gg = null)
         {
             int i = 0;
             foreach (var grouping in group.GroupBy(k => k.Tag))
@@ -270,6 +270,12 @@ namespace StorybrewScripts
                     }
                     item.Fade(0, fadeOut, fadeOut + 3000, 1, 0);
                     j++;
+
+                    if (gg == 12 && i == 6)
+                    {
+                        Log("sb");
+                        item.MoveXBy(-1, 5, 4);
+                    }
                 }
 
                 i += 1;
